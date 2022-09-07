@@ -1,4 +1,4 @@
-package com.iceoxino.first.git;
+package com.iceoxino.first.gittest;
 
 public class GitTest {
 
