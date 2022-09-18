@@ -146,7 +146,7 @@ public class SimpleATM {
 		
 		System.out.println("\n*********************\n"
 				+ "Select a transaction:\n*********************\n ");
-		System.out.println("1. Deposit\n2. Widthraw\n3. Change PIN\n");
+		System.out.println("1. Deposit\n2. Widthraw\n3. Check Balance\n");
 		
 	}
 	
