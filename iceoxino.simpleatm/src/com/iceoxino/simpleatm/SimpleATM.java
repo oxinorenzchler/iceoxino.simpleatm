@@ -50,19 +50,18 @@ public class SimpleATM {
 				}
 				case 3: {
 					
-					System.out.println("\n Current balance is: " + balance);
+					System.out.println("\nCurrent balance is: " + balance);
+					isContinued = checkContinuedProcess(in);
 					
 				}
-				default:
-					System.out.println(isContinued);
-				}
 				
+				}
 			}
 			
 			
 		}else {
 			
-			System.out.println("Incorrect PIN");
+			System.out.println("\nIncorrect PIN");
 		}
 		
 		in.close();
